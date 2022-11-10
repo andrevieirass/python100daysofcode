@@ -15,5 +15,5 @@ def greet_with(name="André", location="Brazil"):
     print(f"You live in {location}")
 
 greet_with()
-greet_with("André", "Brazil")
+greet_with("Brazil", "André")
 greet_with(location="Brazil", name="André")
