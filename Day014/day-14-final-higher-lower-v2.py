@@ -20,10 +20,10 @@ def format_data(account):
     name = account["name"]
     description = account["description"]
     country = account["country"]
-    count = account["follower_count"]
+    # count = account["follower_count"]
 
-    # return f"{name}, a {description}, from {country}"
-    return f"{name}, a {description}, from {country} - {count}"
+    return f"{name}, a {description}, from {country}"
+    # return f"{name}, a {description}, from {country} - {count}"
 
 def check_answer(guess, a_followers, b_followers):
     """
